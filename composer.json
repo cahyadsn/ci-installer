@@ -1,0 +1,35 @@
+{
+    "name": "cahyadsn/ci-installer",
+    "description": "Package to install CodeIgniter3 via Composer with secure folder structure.",
+    "keywords": [
+        "CodeIgniter",
+        "Composer",
+        "installer"
+    ],
+    "homepage": "https://github.com/cahyadsn/ci-installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cahya DSN",
+            "email": "cahyadsn@gmail.com"
+        }
+    ],
+    "require": {
+            "codeigniter/framework": "3.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cahyadsn\\CodeIgniter\\": "src/"
+        }
+    },
+    "scripts" : {
+        "post-create-project-cmd": [
+            "Cahyadsn\\CodeIgniter\\Installer::postInstall"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
