@@ -1,4 +1,4 @@
-# CodeIgniter Composer Installer
+# CodeIgniter v3.* Composer Installer
 
 This package installs the offical [CodeIgniter](https://github.com/bcit-ci/CodeIgniter) (version `3.1.*`) with secure folder structure via Composer.
 
