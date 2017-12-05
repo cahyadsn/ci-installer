@@ -79,6 +79,12 @@ $ php bin/install.php modular-extensions-hmvc codeigniter-3.x
 $ php bin/install.php ion-auth 2
 ```
 
+[Ion Auth ACL](https://github.com/weblogics/Codeigniter-Ion-Auth-ACL):
+
+```
+$ php bin/install.php ion-auth-acl master
+```
+
 [CodeIgniter Rest Server](https://github.com/chriskacerguis/codeigniter-restserver):
 
 ```
