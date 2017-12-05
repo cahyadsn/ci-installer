@@ -64,6 +64,18 @@ class Installer
                 'msg'   => 'See http://benedmunds.com/ion_auth/',
                 'example_branch' => '2',
             ),
+            'ion-auth-acl' => array(
+                'site'  => 'github',
+                'user'  => 'weblogics',
+                'repos' => 'CodeIgniter-Ion-Auth-ACL',
+                'name'  => 'Codeigniter Ion Auth-ACL',
+                'dir'   => array(
+                    'config', 'controllers', 'language', 'libraries',
+                    'models', 'sql', 'views'
+                ),
+                'msg'   => 'See https://github.com/weblogics/Codeigniter-Ion-Auth-ACL',
+                'example_branch' => 'master',
+            ),            
             'codeigniter-develbar' => array(
                 'site'  => 'github',
                 'user'  => 'jcsama',
