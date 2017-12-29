@@ -75,7 +75,16 @@ class Installer
                 ),
                 'msg'   => 'See https://github.com/weblogics/Codeigniter-Ion-Auth-ACL',
                 'example_branch' => 'master',
-            ),            
+            ),
+            'codeigniter-log' => array(
+                'site'  => 'github',
+                'user'  => 'cahyadsn',
+                'repos' => 'ci-log',
+                'name'  => 'Codeigniter Log',
+                'dir'   => array('config','libraries', 'models'),
+                'msg'   => 'See https://github.com/cahyadsn/ci-log',
+                'example_branch' => 'master',
+            ),
             'codeigniter-develbar' => array(
                 'site'  => 'github',
                 'user'  => 'jcsama',
