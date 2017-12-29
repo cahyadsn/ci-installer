@@ -90,6 +90,11 @@ $ php bin/install.php ion-auth-acl master
 ```
 $ php bin/install.php restserver 2.7.2
 ```
+[CodeIgniter Log](https://github.com/cahyadsn/ci-log):
+
+```
+$ php bin/install.php ci-log master
+```
 [CodeIgniter Developer Toolbar](https://github.com/JCSama/CodeIgniter-develbar):
 
 ```
