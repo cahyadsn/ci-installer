@@ -61,10 +61,10 @@ $ php bin/install.php translations 3.1.8
 
 #### Install Third Party Libraries
 
-[Codeigniter Matches CLI](https://github.com/avenirer/codeigniter-matches-cli):
+[Codeigniter Gen CLI](https://github.com/cahyadsn/ci-gen):
 
 ```
-$ php bin/install.php matches-cli master
+$ php bin/install.php gen-cli master
 ```
 
 [Modular Extensions - HMVC](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc):
