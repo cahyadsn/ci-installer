@@ -22,7 +22,7 @@ class Installer
                 'repos' => 'codeigniter3-translations',
                 'name'  => 'Translations for CodeIgniter System Messages',
                 'dir'   => 'language',
-                'example_branch' => '3.1.0',
+                'example_branch' => '3.1.8',
              ),
             'restserver' => array(
                 'site'  => 'github',
@@ -32,7 +32,7 @@ class Installer
                 'dir'   => array('config', 'controllers', 'language', 'libraries', 'views'),
                 'pre'   => 'application/',
                 'msg'   => 'See https://github.com/chriskacerguis/codeigniter-restserver',
-                'example_branch' => '2.7.2',
+                'example_branch' => '3.0.3',
             ),
             'matches-cli' => array(
                 'site'  => 'github',
@@ -64,27 +64,18 @@ class Installer
                 'msg'   => 'See http://benedmunds.com/ion_auth/',
                 'example_branch' => '2',
             ),
-            'ion-auth-acl' => array(
-                'site'  => 'github',
-                'user'  => 'weblogics',
-                'repos' => 'CodeIgniter-Ion-Auth-ACL',
-                'name'  => 'Codeigniter Ion Auth-ACL',
-                'dir'   => array(
-                    'config', 'controllers', 'language', 'libraries',
-                    'models', 'sql', 'views'
-                ),
-                'msg'   => 'See https://github.com/weblogics/Codeigniter-Ion-Auth-ACL',
-                'example_branch' => 'master',
-            ),
-            'codeigniter-log' => array(
+            'ci-log' => array(
                 'site'  => 'github',
                 'user'  => 'cahyadsn',
                 'repos' => 'ci-log',
-                'name'  => 'Codeigniter Log',
-                'dir'   => array('config','libraries', 'models'),
-                'msg'   => 'See https://github.com/cahyadsn/ci-log',
+                'name'  => 'CodeIgniter Log',
+                'dir'   => array(
+                    'config', 'controllers', 'language', 'libraries',
+                    'migrations', 'models', 'sql', 'views'
+                ),
+                'msg'   => 'See https://github.com/cahyadsn/ci-log/',
                 'example_branch' => 'master',
-            ),
+            ),			
             'codeigniter-develbar' => array(
                 'site'  => 'github',
                 'user'  => 'jcsama',
