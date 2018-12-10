@@ -36,11 +36,11 @@ class Installer
             ),
             'matches-cli' => array(
                 'site'  => 'github',
-                'user'  => 'avenirer',
-                'repos' => 'codeigniter-matches-cli',
-                'name'  => 'Codeigniter Matches CLI',
+                'user'  => 'cahyadsn',
+                'repos' => 'ci-gen',
+                'name'  => 'Codeigniter Gen CLI',
                 'dir'   => array('config', 'controllers', 'views'),
-                'msg'   => 'See http://avenirer.github.io/codeigniter-matches-cli/',
+                'msg'   => 'See https://github.com/cahyadsn/ci-gen/',
                 'example_branch' => 'master',
             ),
             'modular-extensions-hmvc' => array(
