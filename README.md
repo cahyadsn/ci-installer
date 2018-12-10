@@ -22,7 +22,7 @@ codeigniter/
 
 ## Requirements
 
-* PHP 5.3.7 or later
+* PHP version 5.6 or newer is recommended. It should work on 5.3.7 as well, but we strongly advise you NOT to run such old versions of PHP, because of potential security and performance issues, as well as missing features.
 * `composer` command (See [Composer Installation](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx))
 * Git
 
@@ -56,7 +56,7 @@ If you want to install translations for system messages:
 
 ```
 $ cd /path/to/codeigniter
-$ php bin/install.php translations 3.1.0
+$ php bin/install.php translations 3.1.8
 ```
 
 #### Install Third Party Libraries
@@ -88,7 +88,7 @@ $ php bin/install.php ion-auth-acl master
 [CodeIgniter Rest Server](https://github.com/chriskacerguis/codeigniter-restserver):
 
 ```
-$ php bin/install.php restserver 2.7.2
+$ php bin/install.php restserver 3.0.3
 ```
 [CodeIgniter Log](https://github.com/cahyadsn/ci-log):
 
