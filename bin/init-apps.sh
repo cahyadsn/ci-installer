@@ -9,8 +9,8 @@ php bin/install.php translations develop
 # Install Roave Security Advisories
 composer require roave/security-advisories:dev-master
 
-# Install Codeigniter Matches CLI
-php bin/install.php matches-cli master
+# Install Codeigniter Gen CLI
+php bin/install.php gen-cli master
 
 # Install Modular Extensions - HMVC for Codeigniter 3.*
 php bin/install.php modular-extensions-hmvc codeigniter-3.x
@@ -19,7 +19,7 @@ php bin/install.php modular-extensions-hmvc codeigniter-3.x
 php bin/install.php ion-auth 2
 
 # Install CodeIgniter Rest Server
-php bin/install.php restserver 2.7.2
+php bin/install.php restserver 3.0.3
 
 # Install CodeIgniter Developer Toolbar
 php bin/install.php codeigniter-develbar master
