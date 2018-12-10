@@ -34,7 +34,7 @@ class Installer
                 'msg'   => 'See https://github.com/chriskacerguis/codeigniter-restserver',
                 'example_branch' => '3.0.3',
             ),
-            'matches-cli' => array(
+            'gen-cli' => array(
                 'site'  => 'github',
                 'user'  => 'cahyadsn',
                 'repos' => 'ci-gen',
