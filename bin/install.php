@@ -72,7 +72,7 @@ class Installer
                 'dir'   => array(
                     'config', 'controllers', 'language', 'libraries', 'models', 'sql', 'views'
                 ),
-                'msg'   => 'See https://github.com/weblogics/ci-log/',
+                'msg'   => 'See https://github.com/weblogics/Codeigniter-Ion-Auth-ACL/',
                 'example_branch' => 'master',
             ),            
             'ci-log' => array(
