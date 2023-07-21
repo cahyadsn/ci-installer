@@ -86,7 +86,16 @@ class Installer
                 ),
                 'msg'   => 'See https://github.com/cahyadsn/ci-log/',
                 'example_branch' => 'master',
-            ),			
+            ),	
+            'ci-datatables' => array(
+                'site'  => 'github',
+                'user'  => 'cahyadsn',
+                'repos' => 'ci-datatables',
+                'name'  => 'CodeIgniter Log',
+                'dir'   => array( 'libraries',
+                'msg'   => 'See https://github.com/cahyadsn/ci-datatables/',
+                'example_branch' => 'master',
+            ),	            		
             'codeigniter-develbar' => array(
                 'site'  => 'github',
                 'user'  => 'jcsama',
