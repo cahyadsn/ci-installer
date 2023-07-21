@@ -92,7 +92,7 @@ class Installer
                 'user'  => 'cahyadsn',
                 'repos' => 'ci-datatables',
                 'name'  => 'CodeIgniter Log',
-                'dir'   => array( 'libraries',
+                'dir'   => array( 'libraries'),
                 'msg'   => 'See https://github.com/cahyadsn/ci-datatables/',
                 'example_branch' => 'master',
             ),	            		
