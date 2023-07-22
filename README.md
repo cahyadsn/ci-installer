@@ -56,7 +56,7 @@ If you want to install translations for system messages:
 
 ```
 $ cd /path/to/codeigniter
-$ php bin/install.php translations 3.1.8
+$ php bin/install.php translations 3.1.11
 ```
 
 #### Install Third Party Libraries
@@ -67,16 +67,16 @@ $ php bin/install.php translations 3.1.8
 $ php bin/install.php gen-cli master
 ```
 
-[Modular Extensions - HMVC](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc):
+[Modular Extensions (HMVC) for CodeIgniter 3](https://github.com/codinghamster/codeigniter-modular-extensions-hmvc/):
 
 ```
-$ php bin/install.php modular-extensions-hmvc codeigniter-3.x
+$ php bin/install.php modular-extensions-hmvc 1.1.0
 ```
 
 [Ion Auth](https://github.com/benedmunds/CodeIgniter-Ion-Auth):
 
 ```
-$ php bin/install.php ion-auth 2
+$ php bin/install.php ion-auth 3
 ```
 
 [Ion Auth ACL](https://github.com/weblogics/Codeigniter-Ion-Auth-ACL):
@@ -88,12 +88,17 @@ $ php bin/install.php ion-auth-acl master
 [CodeIgniter Rest Server](https://github.com/chriskacerguis/codeigniter-restserver):
 
 ```
-$ php bin/install.php restserver 3.0.3
+$ php bin/install.php restserver 3.1.4
 ```
 [CodeIgniter Log](https://github.com/cahyadsn/ci-log):
 
 ```
 $ php bin/install.php ci-log master
+```
+[ci-datatables](https://github.com/cahyadsn/ci-datatables):
+
+```
+$ php bin/install.php ci-datatables master
 ```
 [CodeIgniter Developer Toolbar](https://github.com/JCSama/CodeIgniter-develbar):
 
