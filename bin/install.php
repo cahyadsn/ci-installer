@@ -22,7 +22,7 @@ class Installer
                 'repos' => 'codeigniter3-translations',
                 'name'  => 'Translations for CodeIgniter System Messages',
                 'dir'   => 'language',
-                'example_branch' => '3.1.8',
+                'example_branch' => '3.1.11',
              ),
             'restserver' => array(
                 'site'  => 'github',
@@ -44,13 +44,13 @@ class Installer
                 'example_branch' => 'master',
             ),
             'modular-extensions-hmvc' => array(
-                'site'  => 'bitbucket',
-                'user'  => 'wiredesignz',
+                'site'  => 'github',
+                'user'  => 'codinghamster',
                 'repos' => 'codeigniter-modular-extensions-hmvc',
-                'name'  => 'Modular Extensions - HMVC (wiredesignz)',
+                'name'  => 'Modular Extensions (HMVC) for CodeIgniter 3',
                 'dir'   => array('core', 'third_party'),
-                'msg'   => 'See https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc',
-                'example_branch' => 'codeigniter-3.x',
+                'msg'   => 'See https://github.com/codinghamster/codeigniter-modular-extensions-hmvc/',
+                'example_branch' => 'master',
             ),
             'ion-auth' => array(
                 'site'  => 'github',
@@ -62,7 +62,7 @@ class Installer
                     'migrations', 'models', 'sql', 'views'
                 ),
                 'msg'   => 'See http://benedmunds.com/ion_auth/',
-                'example_branch' => '2',
+                'example_branch' => '3',
             ),
             'ion-auth-acl' => array(
                 'site'  => 'github',
